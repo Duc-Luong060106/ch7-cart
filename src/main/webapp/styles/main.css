@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    color: #333;
+    margin: 2em;
+}
+
+h1, h2 {
+    color: teal;
+    margin-bottom: 0.75em;
+}
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 1.5em;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px 15px;
+    text-align: left;
+}
+
+th {
+    background-color: teal;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f4f8f8;
+}
+
+input[type="number"] {
+    width: 4.5em;
+    padding: 4px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"], input[type="button"] {
+    padding: 5px 12px;
+    border: none;
+    cursor: pointer;
+    margin-left: 0.3em;
+}
+
+
+form {
+    display: inline;
+}
